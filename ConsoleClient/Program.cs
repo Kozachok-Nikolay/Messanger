@@ -6,7 +6,9 @@ namespace Messanger
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      Message msg = new Message();
+      Console.WriteLine("Begin of the end!");
+      Console.WriteLine(msg.ToString());
     }
   }
 }
